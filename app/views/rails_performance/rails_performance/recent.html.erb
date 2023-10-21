@@ -8,9 +8,13 @@
       </div>
       <div class="column right-text is-size-5 has-text-right">
         <label id="autoupdate_label">
-          <input id="autoupdate" type="checkbox"/>
+          <input id="autoupdate" type="checkbox" />
           Auto-update
         </label>
+        <script>
+          // unchecked by default
+          document.getElementById("autoupdate").checked = false
+        </script>
       </div>
     </div>
 
